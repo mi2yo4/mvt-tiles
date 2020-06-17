@@ -1,10 +1,10 @@
 {
     "tilejson": "2.2.0",
-    "tiles": ["https://mi2yo4.github.io/mvt-tiles/tile/{z}/{x}/{y}.pbf.mvt"],
+    "tiles": ["https://mi2yo4.github.io/mvt-tiles/tile/{z}/{x}/{y}.pbf"],
     "name": "veg mvt",
     "attribution": "Biodiversity Center of Japan",
     "maxzoom": 16,
-    "minzoom": 3,
+    "minzoom": 13,
     "bounds": [137.305193, 34.649289, 137.491779, 34.854581],
     "center": [137.447205, 34.816058, 16],
     "vector_layers": [{
