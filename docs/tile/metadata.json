@@ -1,6 +1,6 @@
 {
-    "name": "output.mbtiles",
-    "description": "output.mbtiles",
+    "name": "hudepori.mbtiles",
+    "description": "hudepori.mbtiles",
     "version": "2",
     "minzoom": "13",
     "maxzoom": "16",
@@ -9,6 +9,6 @@
     "type": "overlay",
     "format": "pbf",
     "generator": "tippecanoe v1.35.0",
-    "generator_options": "/usr/local/bin/tippecanoe -z16 -Z13 -o output.mbtiles 232012016_5.geojson",
-    "json": "{\"vector_layers\": [ { \"id\": \"232012016_5\", \"description\": \"\", \"minzoom\": 13, \"maxzoom\": 16, \"fields\": {\"\u8015\u5730\u306e\u7a2e\u985e\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"232012016_5\",\"count\": 67148,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"\u8015\u5730\u306e\u7a2e\u985e\",\"count\": 2,\"type\": \"string\",\"values\": [\"\u7530\",\"\u7551\"]}]}]}}"
+    "generator_options": "/usr/local/bin/tippecanoe -z16 -Z13 -o hudepori.mbtiles hudepori.geojson",
+    "json": "{\"vector_layers\": [ { \"id\": \"hudepori\", \"description\": \"\", \"minzoom\": 13, \"maxzoom\": 16, \"fields\": {\"\u8015\u5730\u306e\u7a2e\u985e\": \"String\"} } ],\"tilestats\": {\"layerCount\": 1,\"layers\": [{\"layer\": \"hudepori\",\"count\": 67148,\"geometry\": \"Polygon\",\"attributeCount\": 1,\"attributes\": [{\"attribute\": \"\u8015\u5730\u306e\u7a2e\u985e\",\"count\": 2,\"type\": \"string\",\"values\": [\"\u7530\",\"\u7551\"]}]}]}}"
 }
